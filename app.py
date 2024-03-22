@@ -12,7 +12,7 @@ mongo_url=os.getenv("Mongo_url")
 # MongoDB connection
 client = MongoClient(f"mongodb+srv://{mongo_url}")
 db = client["CampusGuard"]  
-collection = db["UserReports4"]  
+collection = db["UserReports5"]  
 data = {
     'Timestamp': [],
     'Incident Type': [],
